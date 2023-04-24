@@ -23,7 +23,7 @@ app.use((req, res, next) => {
 // --------------
 //? Home Page
 app.get("/", function (req, res) {
-  res.send("Mentor and Student Assigning DB API Testing Screenshots uploaded in the folder Thunder Client Testing.");
+  res.send("Mentor and Student Assigning DB API Testing Screenshots uploaded in the folder Thunder Client Testing. check it on github");
 });
 // --------------
 //? Use the mentor and Student routes
